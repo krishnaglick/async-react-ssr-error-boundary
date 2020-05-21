@@ -3,13 +3,13 @@
   "version": "1.0.1",
   "description": "React renderToString error boundary fallback",
   "main": "index.js",
-  "repository": "https://github.com/zekchan/react-ssr-error-boundary",
+  "repository": "https://github.com/krishnaglick/react-ssr-error-boundary",
   "scripts": {
     "build": "babel src --out-dir . --ignore src/**/*.test.js",
     "test": "jest",
     "prepublish": "npm run build"
   },
-  "author": "Ilya Groshev <groshev.i.d@gmail.com>",
+  "author": "Ilya Groshev <groshev.i.d@gmail.com> and Krishna Glick <krishnaglick@gmail.com>",
   "keywords": [
     "react"
   ],
@@ -24,28 +24,29 @@
     "index.js"
   ],
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/plugin-proposal-class-properties": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.4.2",
-    "codecov": "^3.2.0",
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.11.2",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "jest": "^24.6.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "codecov": "^3.7.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
-  }
+  },
+  "dependencies": {}
 }
