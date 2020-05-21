@@ -7,7 +7,7 @@
   "scripts": {
     "build": "babel src --out-dir . --ignore src/**/*.test.js",
     "test": "jest",
-    "prepublish": "npm run build"
+    "prepublish": "yarn build"
   },
   "author": "Ilya Groshev <groshev.i.d@gmail.com> and Krishna Glick <krishnaglick@gmail.com>",
   "keywords": [
