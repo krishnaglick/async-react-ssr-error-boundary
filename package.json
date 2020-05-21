@@ -1,6 +1,6 @@
 {
   "name": "async-react-ssr-error-boundary",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React renderToString error boundary fallback",
   "main": "index.js",
   "repository": "https://github.com/krishnaglick/react-ssr-error-boundary",
@@ -20,8 +20,8 @@
   },
   "files": [
     "README.md",
-    "src/index.js",
-    "index.js"
+    "index.js",
+    "server.js"
   ],
   "devDependencies": {
     "@babel/cli": "^7.8.4",
